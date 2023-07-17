@@ -41,11 +41,30 @@ Container - fit center element
     border-bottom: 2px dotted #eee;
 }
 
+.explore .left-side b{
+    color: var(--f-m-color);
+    font-weight: 500;
+    display: flex;
+    margin-top:1.5rem;
+    font-size:0.875rem;
+   }
+   
+   .explore .left-side b i{
+    font-size:2.5rem;
+   }
+   
+   
+   .explore .left-side em{
+    font-style:italic;
+   }
+   
+
 /* Common Button Style  */
 .common-btn{
     font-size: .875rem;
     border: 1px solid #fff;
     font-weight: 500;
+    align-items: center;
     color: #fff;
     width: fit-content;
     padding: 0.75rem 1.25rem;
@@ -76,3 +95,36 @@ Container - fit center element
     font-style:italic;
     font-weight:400;
     }
+
+    /* Explore Section Style */
+.explore .section-title{
+    margin-bottom:1.5rem;
+   }
+   
+   
+   .explore .left-side{
+    padding-right:2rem;
+   }
+   
+   
+   .explore .left-side p{
+    font-size: 0.875rem;
+    color: #aaaaaa;
+    font-weight: 500;
+    display: block;
+    margin-top: 1.5rem;
+   }
+   
+   .explore .common-btn{
+    border:1px solid var(--f-m-color);
+    color:var(--f-m-color);
+    margin-top:1.5rem;
+    display:inline-block;
+    transition:all .4s;
+   }
+   
+   
+   .explore .common-btn:hover{
+    background:var(--f-m-color);
+    color:#fff;
+   }   
